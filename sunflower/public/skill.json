@@ -8,7 +8,7 @@
     "rating": 4.8,
     "slotsAvailable": 3,
     "description": "Acoustic guitar classes for complete beginners.",
-    "image": "https://i.postimg.cc/example1.png",
+    "image": "https://i.ibb.co.com/Z6nzCrNV/images.jpg",
     "category": "Music"
   },
   {
@@ -20,7 +20,7 @@
     "rating": 4.6,
     "slotsAvailable": 5,
     "description": "Conversational English sessions for non-native speakers.",
-    "image": "https://i.postimg.cc/example2.png",
+    "image": "https://i.ibb.co.com/SwpQRYFy/main-qimg-d72e2bbac4dcc15f14168b53d0bc24a9.jpg",
     "category": "Language"
   },
   {
@@ -32,7 +32,7 @@
     "rating": 4.7,
     "slotsAvailable": 4,
     "description": "Learn how to edit photos and create social media posts with Photoshop.",
-    "image": "https://i.postimg.cc/example3.png",
+    "image": "https://i.ibb.co.com/vx581Zrq/pixlr-e-1024.webp",
     "category": "Design"
   },
   {
@@ -44,7 +44,7 @@
     "rating": 4.9,
     "slotsAvailable": 2,
     "description": "Step-by-step guide to cook delicious Indian meals at home.",
-    "image": "https://i.postimg.cc/example4.png",
+    "image": "https://i.ibb.co.com/gbRJzG3F/woman-chefs-hands-cooking-vegetables-600w-2503660419.webp",
     "category": "Cooking"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 4.5,
     "slotsAvailable": 6,
     "description": "Gentle yoga classes to improve flexibility and reduce stress.",
-    "image": "https://i.postimg.cc/example5.png",
+    "image": "https://i.ibb.co.com/h1hcHTv7/yoga3-2.webp",
     "category": "Fitness"
   },
   {
@@ -68,7 +68,7 @@
     "rating": 4.7,
     "slotsAvailable": 3,
     "description": "Learn SEO, social media, and content marketing fundamentals.",
-    "image": "https://i.postimg.cc/example6.png",
+    "image": "https://i.ibb.co.com/Kxpwfj0G/images-1.png",
     "category": "Business"
   },
   {
@@ -80,7 +80,7 @@
     "rating": 4.9,
     "slotsAvailable": 4,
     "description": "Discover watercolor techniques and create your first landscape painting.",
-    "image": "https://i.postimg.cc/example7.png",
+    "image": "https://i.ibb.co.com/Z6QNPbrk/23-09-21-18-05-50-9391-copy.webp",
     "category": "Art"
   },
   {
@@ -92,7 +92,7 @@
     "rating": 4.8,
     "slotsAvailable": 5,
     "description": "Introductory Python course covering variables, loops, and functions.",
-    "image": "https://i.postimg.cc/example8.png",
+    "image": "https://i.ibb.co.com/YF0Wz9xB/images.jpg",
     "category": "Programming"
   },
   {
@@ -104,7 +104,7 @@
     "rating": 4.6,
     "slotsAvailable": 3,
     "description": "Overcome stage fear and learn how to speak confidently in public.",
-    "image": "https://i.postimg.cc/example9.png",
+    "image": "https://i.ibb.co.com/xS2zwBxV/images-1.jpg",
     "category": "Soft Skills"
   },
   {
@@ -116,7 +116,7 @@
     "rating": 4.9,
     "slotsAvailable": 4,
     "description": "Learn camera basics, lighting, and composition to take stunning photos.",
-    "image": "https://i.postimg.cc/example10.png",
+    "image": "https://i.ibb.co.com/1Gpm74Bw/download.jpg",
     "category": "Photography"
   },
   {
@@ -128,7 +128,7 @@
   "rating": 4.8,
   "slotsAvailable": 5,
   "description": "Learn how to build simple responsive websites using HTML, CSS, and JavaScript.",
-  "image": "https://i.postimg.cc/example11.png",
+  "image": "https://i.ibb.co.com/ycpH9TnB/1-V-Jp13-Lvt-Vc2-Ii-Y2fp4q-Yw.jpg",
   "category": "Programming"
 },
 {
@@ -140,19 +140,19 @@
   "rating": 4.7,
   "slotsAvailable": 4,
   "description": "Enhance your storytelling, character creation, and writing style in a guided workshop.",
-  "image": "https://i.postimg.cc/example12.png",
+  "image": "https://i.ibb.co.com/vWybTnW/Creative-writing-Generic-WORKSHOP-1024x1024.png",
   "category": "Writing"
 },
 {
   "skillId": 11,
-  "skillName": "Basic Web Development",
+  "skillName": "Advance Web Development",
   "providerName": "Noah Williams",
   "providerEmail": "noah@skillswap.com",
   "price": 28,
   "rating": 4.8,
   "slotsAvailable": 5,
   "description": "Learn how to build simple responsive websites using HTML, CSS, and JavaScript.",
-  "image": "https://i.postimg.cc/example11.png",
+  "image": "https://i.ibb.co.com/ycpH9TnB/1-V-Jp13-Lvt-Vc2-Ii-Y2fp4q-Yw.jpg",
   "category": "Programming"
 },
 {
@@ -164,7 +164,7 @@
   "rating": 4.7,
   "slotsAvailable": 4,
   "description": "Enhance your storytelling, character creation, and writing style in a guided workshop.",
-  "image": "https://i.postimg.cc/example12.png",
+  "image": "https://i.ibb.co.com/vWybTnW/Creative-writing-Generic-WORKSHOP-1024x1024.png",
   "category": "Writing"
 }
 ]

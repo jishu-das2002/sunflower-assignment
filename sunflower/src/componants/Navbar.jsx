@@ -15,7 +15,6 @@ const Navbar =() =>{
                   className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                   <li><NavLink to='/'>Home</NavLink></li>
                   <li><NavLink to='/Course'>Course</NavLink></li>
-                  <li><NavLink to='/About'>About</NavLink></li>
                 </ul>
             </div>
              <div>
@@ -27,13 +26,13 @@ const Navbar =() =>{
             </div>
           </div>
 
-          <div className=" md:w-[40%] lg:w-[20%] flex justify-between items-center">
+          <div className=" md:w-[40%] lg:w-[22%] flex justify-between items-center">
 
             <div>
                <ul className="hidden  sm:flex">
                   <li ><NavLink to='/'>Home</NavLink></li>
                   <li className="ml-8"><NavLink to = '/Course'>course</NavLink></li>
-                  <li className="ml-8"><NavLink to='/About'>About</NavLink></li>
+                  <li className="ml-8" ><NavLink to='/MyProfile'>My Profile</NavLink></li>
                </ul>
             </div>
             <div className="dropdown dropdown-end">

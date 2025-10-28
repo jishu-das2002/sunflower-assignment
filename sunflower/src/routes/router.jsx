@@ -3,7 +3,8 @@ import Root from "../root/Root";
 import Error from "../componants/Error";
 import Home from "../componants/Home/Home";
 import Course from "../pages/Course";
-import About from "../pages/About";
+import MyProfile from "../componants/MyProfile";
+import signup from "../../signup";
 
 const router = createBrowserRouter([
   {
@@ -23,10 +24,14 @@ const router = createBrowserRouter([
 
       },
       {
-        path:'/About',
-        Component:About,
-        // loader:() => fetch('../App.json')
+        path:'/MyProfile',
+        Component: MyProfile,
       },
+      {
+        path:'/signup',
+        Component:signup,
+      }
+      
     ],
   },
 ]);
