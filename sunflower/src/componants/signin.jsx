@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Signin = () => {
+const SignIn = () => {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -24,17 +24,18 @@ const Signin = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 to-pink-500">
       <div className="bg-white rounded-2xl shadow-lg flex flex-col md:flex-row w-[90%] max-w-4xl overflow-hidden">
-        {/* Left side: Welcome message */}
+        
+        {/* Left Side */}
         <div className="md:w-1/2 flex flex-col justify-center items-center bg-gradient-to-b from-purple-600 to-pink-500 text-white p-10">
           <h1 className="text-3xl font-bold text-center">
-            Welcome Back 🌼
+            Welcome Back to Learning World
           </h1>
           <p className="text-center mt-3 text-sm text-purple-100">
-            Log in and continue your learning journey with us.
+            Sign in to continue your learning adventure!
           </p>
         </div>
 
-        {/* Right side: Login form */}
+        {/* Right Side (Form) */}
         <div className="md:w-1/2 p-8">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
@@ -86,4 +87,7 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default SignIn;
+
+
+
