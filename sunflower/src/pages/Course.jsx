@@ -1,5 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router";
+import { Link } from "react-router";
 
 const Course = () => {
   const skills = useLoaderData();
@@ -22,8 +23,17 @@ const Course = () => {
             <h2 className="text-lg font-semibold mt-2">{skill.skillName}</h2>
             <p className="text-sm text-gray-600">By {skill.providerName}</p>
             <p className="text-sm mt-1">{skill.description}</p>
-            <p className="text-sm mt-2">💰 Price: ${skill.price}</p>
-            <p className="text-sm">⭐ Rating: {skill.rating}</p>
+            <p className="text-sm mt-2"> Price: ${skill.price}</p>
+            <p className="text-sm"> Rating: {skill.rating}</p>
+
+            
+            <Link
+              to={`/course/${skill.skillId}`}
+              className="mt-3 inline-block px-3 py-2 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-700"
+            >
+              View Details
+            </Link>
+
           </div>
         ))}
       </div>

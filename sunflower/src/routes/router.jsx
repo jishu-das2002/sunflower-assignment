@@ -7,6 +7,7 @@ import MyProfile from "../componants/MyProfile";
 import Signup from "../componants/Signup";
 import Signin from "../componants/Signin";
 import ProtectedRoute from "../componants/ProtectedRoute";
+import CourseDetails from "../pages/Coursedetails";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,19 @@ const router = createBrowserRouter([
           </ProtectedRoute>
         ),
         loader: () => fetch("/skill.json"),
+      },
+      {
+        path: "/course/:id",
+        Component: () => (
+          <ProtectedRoute>
+            <CourseDetails />
+          </ProtectedRoute>
+        ),
+        loader: async ({ params }) => {
+          const res = await fetch("/skill.json");
+          const data = await res.json();
+          return { course: data, id: params.id };
+        },
       },
       {
         path: "/myprofile",
