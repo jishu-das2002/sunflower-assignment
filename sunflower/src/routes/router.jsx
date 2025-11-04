@@ -1,37 +1,45 @@
 import { createBrowserRouter } from "react-router";
 import Root from "../root/Root";
-import Error from "../componants/Error";
+import ErrorPage from "../componants/ErrorPage";
 import Home from "../componants/Home/Home";
 import Course from "../pages/Course";
 import MyProfile from "../componants/MyProfile";
-import signup from "../../signup";
+import Signup from "../componants/Signup";
+import Signin from "../componants/Signin";
+import ProtectedRoute from "../componants/ProtectedRoute";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
-    errorElement: <Error />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        Component : Home,
-        loader: () => fetch('/skill.json')    
+        Component: Signup,
       },
       {
-        path:'/Course',
-        Component:Course,
-        loader: () => fetch('/skill.json')
-
+        path: "/home",
+        Component: Home,
+        loader: () => fetch("/skill.json"),
       },
       {
-        path:'/MyProfile',
+        path: "/course",
+        Component: () => (
+          <ProtectedRoute>
+            <Course />
+          </ProtectedRoute>
+        ),
+        loader: () => fetch("/skill.json"),
+      },
+      {
+        path: "/myprofile",
         Component: MyProfile,
       },
       {
-        path:'/signup',
-        Component:signup,
-      }
-      
+        path: "/signin",
+        Component: Signin,
+      },
     ],
   },
 ]);
